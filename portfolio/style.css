@@ -1,0 +1,93 @@
+body{
+    margin:0;
+    padding:0;
+    height:100%;
+    overflow-x: hidden;
+}
+.home{
+    background-image: url("Images/developer.png");
+    width:100%;
+    height:800px;
+}
+.textcontent{
+    top:5%;
+    left:30%;
+    color:rgb(251, 250, 250);
+    font-size: 55px;
+    font-weight: 900;
+    position: absolute;
+    width:100%;
+    letter-spacing: 4px;
+   
+}
+.insider{
+    font-size: 30px;
+    letter-spacing: 4px;
+    font-family: 'Arimo', sans-serif;
+}
+.lower{
+    font-family: sans-serif;
+    letter-spacing: 0px;
+}
+.fstfloor{
+    margin-left:200px;
+}
+.fstfloor div{
+    margin: 20px;
+}
+.fstroom1 , .secroom1 , .thirdroom1 {
+     background-color: rgb(247, 247, 247);
+     height:300px;
+     box-shadow: 0px 0px 8px rgba(0,0,0,0.9);
+     width:240px;
+     border-radius: 10px;
+     display: inline-block;
+}
+.fstroom img,.secroom img,.thirdroom img{
+  margin-top:0px;
+  display:inline-block;
+}
+.textroom1{
+   font-family: sans-serif;
+    text-align: center;
+}
+.para1{
+    text-align: center;
+}
+.secfloor{
+    margin-left: 15px;
+    margin-bottom: 20px;
+    display:flex;
+}
+.secfloor div{
+    margin: 0px;
+    display:inline-block;
+}
+.fstdoor,.secdoor{
+    width:620px;
+    height:270px;
+}
+.fstdoor{
+    background-color: rgba(22, 199, 143, 0.38);
+}
+.secdoor{
+    background-color: rgba(49, 49, 186, 0.543);
+}
+.fstsitter{
+    font-family: sans-serif;
+    font-size: 23px;
+   color:white;
+   text-shadow: 0px 0px 8px rgba(0,0,0,0.9);
+    text-align: center;
+}
+.secsitter{
+    text-align: center;
+    font-family: Arial, Helvetica, sans-serif;
+    color:rgb(15, 14, 15);
+}
+.details{
+    font-family:sans-serif;
+    letter-spacing: 0px;
+   
+    margin-left: 5px;
+}
